@@ -39,8 +39,8 @@ For downloading pG4s across the six great ape species—*Homo sapiens*, *Pan pan
 - G4HUNTERSCORE: G4Hunter score
 - SHARED: shared pG4(S), aligned (ASS) or unaligned species-specific (USS) pG4
 - WITH: with which species it is shared 
-		{B: Bonobo, C: Chimpanzee, H: Human, G: Gorilla, 
-		Bo: Bornean Orangutan, So: Sumatran Orangutan}
+	{B: Bonobo, C: Chimpanzee, H: Human, G: Gorilla, 
+	Bo: Bornean Orangutan, So: Sumatran Orangutan}
 - DUPLICATED: If it is shared with the same chromosome in the same species (>1 indicates duplicated)
 - SEQ: pG4 sequence in positive-strand
 - MOTIF: standard (S) or bulged (B) pG4 motif
