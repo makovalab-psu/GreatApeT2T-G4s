@@ -3,4 +3,4 @@
 	url = https://github.com/makovalab-psu/mapsea.git
 [submodule "g4Discovery"]
 	path = g4Discovery
-	url = https://github.com/makovalab-psu/g4Discovery
+	url = https://github.com/makovalab-psu/g4Discovery.git
