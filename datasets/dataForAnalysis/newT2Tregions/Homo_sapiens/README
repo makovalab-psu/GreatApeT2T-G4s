@@ -1,0 +1,5 @@
+# to get the G4s in the new regions
+$ for i in {1..22} X Y; do cat g4s_inNewRegionsT2T.bed | grep "^chr$i[^0-9]" | wc -l | awk -v chr=$i '{print "chr"chr "\t" $1}' >> newG4sinnewRegions.dat; done;
+
+#to get the new regions
+$ for i in {1..23} X Y; do cat chm13v2-unique_to_hg38.bed | grep "^chr$i[^0-9]" | awk -v chr=$i '{sum += $3-$2; } END {print "chr"chr "\t" sum;}' >> newRegions.dat; done;
