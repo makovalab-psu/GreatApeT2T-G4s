@@ -2,3 +2,4 @@
 /datasets/dataForAnalysis/methylationData
 /datasets/dataForAnalysis/genomes
 jupyterNotebooks/pG4sAndSharedInfo.ipynb
+.DS_Store
