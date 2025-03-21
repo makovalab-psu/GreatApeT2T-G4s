@@ -12,7 +12,10 @@ for i in {1..22} X Y; do cat g4s_inNewRegionsT2T.bed | grep "^chr$i[^0-9]" | wc 
 ## The file `chm13v2-unique_to_hg38.bed` is downloaded form human-T2T github repository
 for i in {1..23} X Y; do cat chm13v2-unique_to_hg38.bed | grep "^chr$i[^0-9]" | awk -v chr=$i '{sum += $3-$2; } END {print "chr"chr "\t" sum;}' >> newRegions.dat; done;
 
-
+### 3*. To intersect the new G4s in human to repeats
+bedtools intersect -a g4s_inNewRegionsT2T.bed -b <(gzcat ../../repeatAnnotations/Homo_sapiens/genomic.repeats.bed.gz) -v > g4s_inNewregions_NOTinRepeats.bed
+bedtools intersect -a ../../../pG4s/Homo_sapiens/chrG.pqsfinder.filtered.bed -b g4s_inNewRegionsT2T.bed -v > g4s_inOldRegionsT2T.bed
+bedtools intersect -a g4s_inOldRegionsT2T.bed -b <(gzcat ../../repeatAnnotations/Homo_sapiens/genomic.repeats.bed.gz) -v > g4s_inOldregions_NOTinRepeats.bed
 
 ## The below steps are valid for NHPs (Non-human great apes) only
 ## This file in NHPs however, `g4s_inNewRegionsT2T.bed` contains the newly resolved regions in T2T genome
