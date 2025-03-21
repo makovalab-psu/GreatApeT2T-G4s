@@ -20,7 +20,7 @@ for i in {1..23} X Y; do cat chm13v2-unique_to_hg38.bed | grep "^chr$i[^0-9]" | 
 cat g4s_inNewRegionsT2T.bed | awk '{split ($1, a, "_"); print a[1] "\t" $2 "\t" $3}' | bedtools merge -i - > g4s_inNewRegionsT2T.modified.bed
 
 for i in {1..23} X Y; do 
-    cat ../../pG4s/Pan_paniscus/chrG.pqsfinder.filtered.bed | \
+    cat ../../../pG4s/Pan_paniscus/chrG.pqsfinder.filtered.bed | \
     grep "^chr$i[^0-9]" > chr${i}.pqsfinder.filtered.bed;
 done
 
@@ -44,4 +44,7 @@ for i in {1..23} X Y; do
 done
 
 ## 5. Remove the chromosome bed files
-rm -f chr*.pqsfinder.filtered.bed
+rm -f chr*.pqsfinder.filtered.bed chr*.g4sinNewRegions.bed
+
+## 6. See the total number of new G4s
+cut -f 2 newG4sinnewRegions.dat | awk '{sum+=$1} END {print sum}'
