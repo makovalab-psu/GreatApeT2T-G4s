@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="596" height="452" name="hsaG.svg" y="0" viewBox="0 0 596 452">
+<polyline points="596,452 0,452 0,0 596,0 596,452" fill="white" />
+<text x="473" y="64" fill="#000000" font-size="24" font-family="default" > Bonobo</text>
+<polyline points="348,78 348,54 465,54" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="square"/>
+<text x="466" y="112" fill="#000000" font-size="24" font-family="default" > Chimpanzee</text>
+<polyline points="348,79 348,102 458,102" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="square"/>
+<polyline points="243,114 243,78 348,78" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="square"/>
+<text x="422" y="160" fill="#000000" font-size="24" font-family="default" > Human</text>
+<polyline points="243,115 243,150 414,150" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="square"/>
+<polyline points="168,156 168,114 243,114" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="square"/>
+<text x="443" y="208" fill="#000000" font-size="24" font-family="default" > Gorilla</text>
+<polyline points="168,157 168,198 435,198" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="square"/>
+<polyline points="65,213 65,156 168,156" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="square"/>
+<text x="473" y="256" fill="#000000" font-size="24" font-family="default" > S Orangutan</text>
+<polyline points="355,270 355,246 465,246" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="square"/>
+<text x="472" y="304" fill="#000000" font-size="24" font-family="default" > B Orangutan</text>
+<polyline points="355,271 355,294 464,294" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="square"/>
+<polyline points="65,214 65,270 355,270" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="square"/>
+<line x1="40" y1="213" x2="65" y2="213" stroke="#000000" stroke-width="1" stroke-linecap="square"/>
+<text x="364" y="42" fill="#000000" font-size="20" font-family="Arial" >123051.00</text>
+<text x="362" y="90" fill="#000000" font-size="20" font-family="Arial" >115130.00</text>
+<text x="286" y="138" fill="#000000" font-size="20" font-family="Arial" >179238.00</text>
+<text x="259" y="186" fill="#000000" font-size="20" font-family="Arial" >280014.00</text>
+<text x="369" y="234" fill="#000000" font-size="20" font-family="Arial" >115574.00</text>
+<text x="368" y="282" fill="#000000" font-size="20" font-family="Arial" >113777.00</text>
+<text x="254" y="66" fill="#000000" font-size="20" font-family="Arial" >110326.00</text>
+<text x="161" y="102" fill="#000000" font-size="20" font-family="Arial" >78257.00</text>
+<text x="74" y="144" fill="#000000" font-size="20" font-family="Arial" >107677.00</text>
+<text x="168" y="318" fill="#000000" font-size="20" font-family="Arial" >303737.00</text>
+<line x1="160" y1="356" x2="255" y2="356" stroke="#000000" stroke-width="1" stroke-linecap="square"/>
+<line x1="160" y1="352" x2="160" y2="360" stroke="#000000" stroke-width="1" stroke-linecap="square"/>
+<line x1="255" y1="352" x2="255" y2="360" stroke="#000000" stroke-width="1" stroke-linecap="square"/>
+<text x="172" y="391" fill="#000000" font-size="16" font-family="MS Sans Serif" >100000.00</text>
+</svg>
