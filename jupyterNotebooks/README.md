@@ -6,3 +6,4 @@ This directory contains all the Jupyter notebooks required to analyze data and g
    - `functionalEnrichmentnMethylHuman.ipynb`: Analyzes functional enrichment and methylation data for humans.  
    - `functionalEnrichmentnMethylNHPs.ipynb`: Analyzes functional enrichment and methylation data for non-human great apes.
 4. `alignedvsNonAlignedpG4s.ipynb`: Locates aligned and non-aligned species-specific pG4s across datasets.
+5. `density.ipynb`: Calculates the G4 density and perfoms regression on variables-G4 density, gene density and GC content of chromosomes.
