@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15007392.svg)](https://doi.org/10.5281/zenodo.15007392)
 
-# Evolutionary Dynamics of G-Quadruplexes in Human and Other Great Ape Telomere-to-Telomere Genomes  
+# Evolutionary Dynamics of Predicted G-Quadruplexes in Human and Other Great Apes 
 #### This repository contains all the code and data generated for the paper.
 
 Saswat K. Mohanty, Francesca Chiaromonte, Kateryna D. Makova*
