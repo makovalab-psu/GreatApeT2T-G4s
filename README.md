@@ -57,4 +57,4 @@ cut -f 1-6 wholeGenome.pG4s.withSharingInfo.bed > wholeGenome.pG4s.bed
 ## Citation
 If you use any of this data or tool in your research, please cite the following paper:
 
-> Mohanty, S. K., Chiaromonte, F., & Makova, K. (2024). "[Evolutionary Dynamics of G-Quadruplexes in Human and Other Great Ape Telomere-to-Telomere Genomes](https://www.biorxiv.org/content/10.1101/2024.11.05.621973v1). *bioRxiv*, 2024-11. `doi: 10.1101/2024.11.05.621973`
+> Mohanty, S. K., Chiaromonte F., & Makova, K. D. (2025). [Evolutionary dynamics of predicted G-quadruplexes in human and other great apes](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03635-1). *Genome Biology*, Vol. 26(161), `DOI: 10.1186/s13059-025-03635-1`
